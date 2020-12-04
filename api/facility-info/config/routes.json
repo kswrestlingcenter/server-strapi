@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/facility-info",
+      "handler": "facility-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/facility-info",
+      "handler": "facility-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/facility-info",
+      "handler": "facility-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
